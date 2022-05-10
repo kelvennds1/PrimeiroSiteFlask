@@ -16,11 +16,11 @@ def signup():
     return render_template('signup.html')
 
 #Bid
-@app.route('/bid')
-def bid():
-    value = conversor.cotacao()
-    usdbrl = value.bid()
-    return render_template('bid.html', usdbrl=usdbrl)
+#@app.route('/bid')
+#def bid():
+#    value = conversor.cotacao()
+#    usdbrl = value.bid()
+#    return render_template('bid.html', usdbrl=usdbrl)
 
 #Contacts
 @app.route('/contacts')
